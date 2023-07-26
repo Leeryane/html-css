@@ -3,44 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
+    <title>Desafio Tabela</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
         }
-
         table{
-            border-collapse: collapse;
+            border-collapse: separate;
             width: 400px;
         }
 
-        td{
-            border: 1px solid black;
-            padding: 10px;
+        td {
             text-align: center;
+            border: 2px solid black;
+            padding: 10px
         }
     </style>
 </head>
 <body>
-    <h1>Mesclagem de Tabela</h1>
+    <h1>Desafio 2</h1>
     <table>
         <tr>
-           <td>A</td>
-           <td colspan="2">B</td>
-           
+          <td colspan="4">A</td>
+          <td rowspan="4">B</td>
+        
         </tr>
         <tr>
-            <td rowspan="3">D</td>
+            <td rowspan="4">C</td>
+            <td>D</td>
             <td>E</td>
-            <td>H</td>
-            
+            <td>F</td>
         </tr>
         <tr>
-            
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
             <td>K</td>
             <td>L</td>
         </tr>
+        <tr>
+            <td colspan="4">M</td>
+        </tr>
     </table>
-    
 </body>
 </html>
