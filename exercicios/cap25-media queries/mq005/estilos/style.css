@@ -7,7 +7,7 @@
 }
 
 body, html {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(49, 49, 49);
 }
 
 header {
@@ -59,7 +59,7 @@ menu a:hover {
 
 main {
     width: 90vw;
-    background-color: white;
+    background-color:white;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
