@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <Header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Foguete Marciano</a></li>
+                <li><a href="#">Foguete Terraquio</a></li>
+                <li><a href="#">Foguete Luario</a></li>
+                <li><a href="#">Foguete Solario</a></li>
+            </ul>
+        </menu>
+    </Header>
+    <main>
+       <article>
+        <h2>Lançamento de foguetes</h2>
+        <p>     
+"O princípio de funcionamento dos motores de foguetes baseia-se na terceira lei de Newton. Para se mover para cima, os foguetes expelem para baixo enormes jatos de gás aquecido. Dessa maneira, de acordo com a lei da ação e reação, os gases expelidos empurram o foguete para cima. Uma vez que o movimento do foguete não depende de que ele esteja em contato com um meio ou outro corpo, como no caso dos veículos terrestres, navios e aviões, eles são capazes de continuar acelerando mesmo no vácuo, enquanto houver combustível em seu reservatório. </p>
+
+<p>A força motriz dos foguetes é chamada de empuxo. Essa força é obtida quando o combustível dos foguetes entra em combustão e é forçado a sair por um pequeno bocal na parte inferior do foguete, direcionando a força de reação da direção vertical. </p>
+
+<p>A magnitude da força que o gás produz sobre o foguete depende da massa de suas partículas e também da velocidade em que os gases são expelidos. Quanto maiores forem essas medidas, maior é a quantidade de impulso produzido pelo propelente, ou seja, o combustível utilizado pelo foguete. Impulso é a grandeza física que mede a variação da força aplicada sobre o foguete a cada segundo. Mais especificamente, os combustíveis utilizados em foguetes são classificados de acordo com o seu impulso específico, que corresponde à força produzida por segundo para cada quilograma de gás expelido pelo foguete."  <br>-Texto: Brasil Escola</p> 
+
+       </article>
+    </main>
+    <script>
+        function clickMenu() {
+         if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+             } else {
+                itens.style.display = 'block'
+             }
+       }
+    </script>
+  
+</body>
+</html>
